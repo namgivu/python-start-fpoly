@@ -28,13 +28,9 @@ FAIL = [ "17v200628",
         "21v200628",
         "2v200628"]
 
-
-
-
 # sort by alphabet then length
 PASS.sort()
 PASS.sort(key=len)
-
 
 FAIL.sort()
 FAIL.sort(key=len)
